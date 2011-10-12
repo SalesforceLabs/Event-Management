@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Speakers</relationshipLabel>
+        <relationshipName>Speakers</relationshipName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Best_Practice_Story_Brief_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Best Practice Story (Brief Description)</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Biography__c</fullName>
+        <externalId>false</externalId>
+        <label>Biography</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <externalId>false</externalId>
+        <label>Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Speakers</relationshipLabel>
+        <relationshipName>Speakers</relationshipName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Gift__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if the speaker received a gift.</inlineHelpText>
+        <label>Gift</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hero_Slide__c</fullName>
+        <externalId>false</externalId>
+        <label>Hero Slide</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Handler__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Handler</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Speakers</relationshipName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Partner__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>N/a</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Publish_to_Web__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field can be used for web integration if you wish you publish data to your website.</description>
+        <externalId>false</externalId>
+        <label>Publish to Web?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Release_Form__c</fullName>
+        <externalId>false</externalId>
+        <label>Release Form</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Received - Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Received - No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Session__c</fullName>
+        <externalId>false</externalId>
+        <label>Session</label>
+        <referenceTo>Session__c</referenceTo>
+        <relationshipLabel>Speakers</relationshipLabel>
+        <relationshipName>Speakers</relationshipName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Speak_Hierarchy__c</fullName>
+        <externalId>false</externalId>
+        <label>Speak Hierarchy</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Speaker_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Speaker Details</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Speaker_Image__c</fullName>
+        <externalId>false</externalId>
+        <label>Speaker Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Speaker_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Speaker Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Speakers</relationshipLabel>
+        <relationshipName>Speakers</relationshipName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Speaker_Rating__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter speaker evaluation score (1-5, with 5 as the highest)</inlineHelpText>
+        <label>Speaker Rating</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Speaker_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Speaker Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Nominated</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Self-submitted</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Not a good fit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Request - sent</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Request - tentative</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Request - accepted</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Request - declined</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Speaker Approved</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Confirmation sent</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No comp pass</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ready to Publish</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Speaker_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Speaker Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Speaker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partner Speaker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Analyst Speaker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Industry Speaker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Academic Speaker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Celebrity Speaker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Session Speaker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Keynote Speaker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Topic_Expertise__c</fullName>
+        <externalId>false</externalId>
+        <label>Topic Expertise</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Topic 1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Topic 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Topic 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Track__c</fullName>
+        <externalId>false</externalId>
+        <label>Track</label>
+        <referenceTo>Track__c</referenceTo>
+        <relationshipLabel>Speakers</relationshipLabel>
+        <relationshipName>Speakers</relationshipName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <label>Speaker</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{0000}</displayFormat>
+        <label>Speaker Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Speakers</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>
