@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Track</value>
+    </caseValues>
+    <fields>
+        <label>イベント</label>
+        <name>Event__c</name>
+        <relationshipLabel>記録</relationshipLabel>
+    </fields>
+    <fields>
+        <label>内容</label>
+        <name>Key_Takeaways__c</name>
+    </fields>
+    <fields>
+        <label>Webでの公開</label>
+        <name>Publish_to_Web__c</name>
+    </fields>
+    <fields>
+        <label>カテゴリ</label>
+        <name>Track_Category__c</name>
+        <picklistValues>
+            <masterLabel>Category #1</masterLabel>
+            <translation>カテゴリ1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category #2</masterLabel>
+            <translation>カテゴリ2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category #3</masterLabel>
+            <translation>カテゴリ3</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>Track_Description__c</name>
+    </fields>
+    <fields>
+        <label>状態</label>
+        <name>Track_Status__c</name>
+        <picklistValues>
+            <masterLabel>Draft Sessions Submitted</masterLabel>
+            <translation>ドラフト提出済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Editorial Review Completed</masterLabel>
+            <translation>編集確認済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finalized</masterLabel>
+            <translation>最終確認済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Leader Identified</masterLabel>
+            <translation>リーダー未決定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready to Publish</masterLabel>
+            <translation>公開準備完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Copy Edit</masterLabel>
+            <translation>編集確認へ送信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sessions Pending</masterLabel>
+            <translation>延期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Review Completed</masterLabel>
+            <translation>技術確認済</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Track Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>イベント説明</label>
+            <section>Event Description</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

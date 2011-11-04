@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Event</value>
+    </caseValues>
+    <fields>
+        <label>イベント説明</label>
+        <name>Event_Description__c</name>
+    </fields>
+    <fields>
+        <label>終了日</label>
+        <name>Event_End_Date__c</name>
+    </fields>
+    <fields>
+        <label>評価</label>
+        <name>Event_Evaluation__c</name>
+    </fields>
+    <fields>
+        <label>管理者</label>
+        <name>Event_Manager__c</name>
+        <relationshipLabel>イベント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>開始日</label>
+        <name>Event_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Executive Event</masterLabel>
+            <translation>エグゼクティブイベント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Event</masterLabel>
+            <translation>内輪イベント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch Event</masterLabel>
+            <translation>ローンチイベント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation>トレードショー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Conference</masterLabel>
+            <translation>ユーザーカンファレンス</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>イベント目的</label>
+        <name>Event_Vision__c</name>
+    </fields>
+    <fields>
+        <label>出席者</label>
+        <name>Final_Attendance__c</name>
+    </fields>
+    <fields>
+        <help>グロスコストを入力してください。</help>
+        <label>グロスコスト</label>
+        <name>Gross_Cost__c</name>
+    </fields>
+    <fields>
+        <help>スポンサー収益を入力してください。</help>
+        <label>MDF</label>
+        <name>MDF__c</name>
+    </fields>
+    <fields>
+        <help>許容可能な最大観客数を入力してください。</help>
+        <label>最大参加可能数</label>
+        <name>Maximum_Registration__c</name>
+    </fields>
+    <fields>
+        <label>ネットコスト</label>
+        <name>Net_Cost__c</name>
+    </fields>
+    <fields>
+        <label>地域</label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation>アジア太平洋</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation>ヨーロッパ、中東、アフリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation>日本</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America</masterLabel>
+            <translation>ラテンアメリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation>北アメリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worldwide</masterLabel>
+            <translation>全世界</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>集客ターゲット</label>
+        <name>Targeted_Attendance__c</name>
+    </fields>
+    <fields>
+        <label>総予算</label>
+        <name>Total_Budget__c</name>
+    </fields>
+    <fields>
+        <label>開催社　住所</label>
+        <name>Vendor_Street_Address_2__c</name>
+    </fields>
+    <fields>
+        <label>開催社</label>
+        <name>Vendor__c</name>
+        <relationshipLabel>イベント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>開催地　市区町村</label>
+        <name>Venue_City__c</name>
+    </fields>
+    <fields>
+        <label>開催地　国</label>
+        <name>Venue_Country__c</name>
+    </fields>
+    <fields>
+        <label>開催地　都道府県</label>
+        <name>Venue_State__c</name>
+    </fields>
+    <fields>
+        <label>開催地　建物</label>
+        <name>Venue_Street_Address_1__c</name>
+    </fields>
+    <fields>
+        <label>開催地</label>
+        <name>Venue__c</name>
+        <relationshipLabel>イベント</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Event Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>イベント見積</label>
+            <section>Event Specifics</section>
+        </sections>
+        <sections>
+            <label>一般情報</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>開催地＆開催社情報</label>
+            <section>Venue &amp; Vendor Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

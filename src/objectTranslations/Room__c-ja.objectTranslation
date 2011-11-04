@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Room</value>
+    </caseValues>
+    <fields>
+        <label>映像/音響機器</label>
+        <name>Audio_Visual_Requirements__c</name>
+    </fields>
+    <fields>
+        <label>許容人数</label>
+        <name>Room_Capacity__c</name>
+    </fields>
+    <fields>
+        <label>設営</label>
+        <name>Room_Setup__c</name>
+        <picklistValues>
+            <masterLabel>Classroom</masterLabel>
+            <translation>教習</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crescents</masterLabel>
+            <translation>弓形</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hands-on training</masterLabel>
+            <translation>ハンズオントレーニング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reception</masterLabel>
+            <translation>レセプション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rounds</masterLabel>
+            <translation>円形</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theater</masterLabel>
+            <translation>映像鑑賞</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>場所</label>
+        <name>Venue__c</name>
+        <relationshipLabel>部屋</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Room Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

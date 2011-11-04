@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Session</value>
+    </caseValues>
+    <fields>
+        <help>映像音響機器は届いたか</help>
+        <label>映像/音響機器</label>
+        <name>A_V_Form__c</name>
+    </fields>
+    <fields>
+        <label>全スピーカーは確認できているか</label>
+        <name>All_Speakers_Identified__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>不明</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>No</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Yes</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>観客数</label>
+        <name>Attendance__c</name>
+    </fields>
+    <fields>
+        <label>音声URL</label>
+        <name>Audio_URL__c</name>
+    </fields>
+    <fields>
+        <label>イベント</label>
+        <name>Event__c</name>
+        <relationshipLabel>セッション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>レベル</label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation>上級</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>全て</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beginner</masterLabel>
+            <translation>初心者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate</masterLabel>
+            <translation>中級</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Webでの公開</label>
+        <name>Publish_to_Web__c</name>
+    </fields>
+    <fields>
+        <label>部屋</label>
+        <name>Room__c</name>
+        <relationshipLabel>セッション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>概要</label>
+        <name>Session_Abstract__c</name>
+    </fields>
+    <fields>
+        <label>コード</label>
+        <name>Session_Code__c</name>
+    </fields>
+    <fields>
+        <label>開催日</label>
+        <name>Session_Date__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>Session_Format__c</name>
+        <picklistValues>
+            <masterLabel>Customer Panel and Demo</masterLabel>
+            <translation>観客のパネルとデモ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo with customer(s)</masterLabel>
+            <translation>デモ - 観客無</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hands-on training</masterLabel>
+            <translation>ハンズオントレーニング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keynote</masterLabel>
+            <translation>基調講演</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panel with customers</masterLabel>
+            <translation>顧客参加型パネル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Session</masterLabel>
+            <translation>パートナーセッション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presentation with customer(s)</masterLabel>
+            <translation>プレゼン - 観客有</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presentation without customer(s)</masterLabel>
+            <translation>プレゼン - 観客無</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>注意点</label>
+        <name>Session_Notes__c</name>
+    </fields>
+    <fields>
+        <help>可能であれば1-5の範囲でセッションの評価を入力してください。</help>
+        <label>評価</label>
+        <name>Session_Rating__c</name>
+    </fields>
+    <fields>
+        <label>部屋番号</label>
+        <name>Session_Slot__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>状態</label>
+        <name>Session_Status__c</name>
+        <picklistValues>
+            <masterLabel>Abstract - Copy Edited</masterLabel>
+            <translation>概要編集済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abstract - Finalized</masterLabel>
+            <translation>概要最終確認</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abstract - Submitted</masterLabel>
+            <translation>概要提出済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative Brief - Approved</masterLabel>
+            <translation>クリエイティブブリーフ承認</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative Brief - Submitted</masterLabel>
+            <translation>クリエイティブブリーフ提出済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft Slides - Submitted</masterLabel>
+            <translation>予定スライド提出済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dry Run - Complete</masterLabel>
+            <translation>リハーサル完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dry Run - Scheduled</masterLabel>
+            <translation>リハーサル予定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready to Publish</masterLabel>
+            <translation>公開準備完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Session cancelled</masterLabel>
+            <translation>キャンセル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slides - Locked</masterLabel>
+            <translation>スライドロック</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slides - Submitted</masterLabel>
+            <translation>スライド提出済</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>テーマ</label>
+        <name>Session_Theme__c</name>
+        <picklistValues>
+            <masterLabel>Theme 1</masterLabel>
+            <translation><!-- Theme 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theme 2</masterLabel>
+            <translation><!-- Theme 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theme 3</masterLabel>
+            <translation><!-- Theme 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>時刻</label>
+        <name>Session_Time__c</name>
+    </fields>
+    <fields>
+        <label>URL</label>
+        <name>Slides_URL__c</name>
+    </fields>
+    <fields>
+        <label>スポンサー</label>
+        <name>Sponsor__c</name>
+    </fields>
+    <fields>
+        <label>協賛されているか</label>
+        <name>Sponsored__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>不明</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>No</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Yes</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>記録</label>
+        <name>Track__c</name>
+        <relationshipLabel>セッション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>アンケート回答数</label>
+        <name>of_Survey_Responses__c</name>
+    </fields>
+    <layouts>
+        <layout>Session Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>セッション説明</label>
+            <section>Session Description</section>
+        </sections>
+        <sections>
+            <label>セッション詳細</label>
+            <section>Session Details</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
